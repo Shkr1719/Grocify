@@ -1,0 +1,148 @@
+#title{
+  background-image: url(https://img.freepik.com/free-vector/supermarket-with-shelves-grocery-items-full-shopping-cart-products-consumers-illustration_2175-4195.jpg?w=900);
+
+
+}
+.container-fluid{
+  height: 600px;
+  width: 100%;
+}
+body{
+font-family: "Montserrat-Black", sans-serif;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+h1{
+  font-family: "Montserrat-Black", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+h2{
+  font-family: "Montserrat-Bold";
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #000;
+}
+h3{
+  font-family: "Montserrat-Bold"
+  font-size:3.5rem;
+}
+p{
+  color: #8f8f8f;
+}
+/* navigation bar */
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #000;
+
+}
+.navbar-brand:hover{
+  color: #F47C7C;
+}
+.nav-item{
+  padding: 0 18px;
+
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: Montserrat-light;
+  color: #F47C7C;
+}
+.nav-link:hover{
+  color: #000;
+}
+/* Download Button */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+/* Title-Image */
+.title-image {
+  width: 70%;
+  margin-left: 20%;
+
+
+
+
+}
+/* Features Section */
+#features{
+  padding: 7% 15%
+  background-color: #fff;
+
+
+}
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+.icon{
+  color: #E00543;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #A1DD70;
+}
+/* Testimonials */
+#testimonial-carousel{
+  padding: 7% 15%;
+  text-align: center;
+background-color: #A1DD70;
+  color: #fff;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press{
+    background-color: #A1DD70;
+      text-align: center;
+      padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/* Pricing Section */
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+@media (max-width: 1028px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    transform: rotate(0);
+  }
+}
+/* Call to Action */
+#cta{
+  text-align: center;
+  background-color: #B2E672;
+  color: #fff;
+  padding: 7% 15%;
+}
+.ctaheader{
+  font-family: Montserrat-Black;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+/* Footer Section */
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+
+}
+.help {
+  margin: 20px 10px;
+}
